@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+#main{
+    width: 800px;
+    border: solid;
+    margin-left: 23%;
+}
+#intro{
+    background: white;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    border-radius: 7px;
+    height: 360px;
+    width: 800px;
+    border-style: solid;
+}
+#maze{
+  
+    margin-bottom: 80px; 
+    background-color: white;
+    height: 600px;
+    width: 600px; 
+    border-radius: 7px;
+    margin-left: 100px;
+}
+#period{
+    
+    margin-left: 77px;
+    height: 500px;
+    width: 650px;
+    background-color: white;
+    border-radius: 7px;
+}
+#quiz{
+   
+    margin-top: 80px;
+    height: 500px;
+    width: 796px;
+    border: solid white;
+    border-radius: 7px;
+    background-color: white;
+    margin-bottom: 77px;
+}
+footer{
+    margin-top: 10%;
+    background-color: white;
+    height: 40px;
+}
+/* ADD UR CODE BENEATH */
+/* ALOUI HERE */
+
+
+
+/* FERES HERE */
+
+
+
+/* IHEB HERE */
+
+
