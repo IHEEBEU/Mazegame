@@ -21,25 +21,25 @@ const quizArray = [
         id: "0",
         question: "What were some of the major developments during the Neolithic Age?",
         options: ["Inovation of the wheel and writing systems", "Domestication of animals and practice of agriculture", "Exploration of new continents and sea routes", "Invention of advanced metalworking techniques"],
-        correct: "Mandarin",
+        correct:"Domestication of animals and practice of agriculture",
     },
     {
         id: "1",
         question: "What materials were commonly used to make tools during the Neolithic Age?",
         options: ["Stone,bone and wood", "Bronze and iron", "Copper and gold", "Clay and pottery"],
-        correct: "Europe",
+        correct: "Stone,bone and wood",
     },
     {
         id: "2",
         question: "How did trade contribute to the growth of Neolithic societies?",
         options: ["It led to the establishment of permanent settlements", "It facilitated cultural exchanges and the spread of ideas", "It resulted in the invention of new tools and technologies", "It allowed for the discovery of new land resources"],
-        correct: "Charles Babbage",
+        correct: "It facilitated cultural exchanges and the spread of ideas",
     },
     {
         id: "3",
         question: "What social changes occurred during the Neolithic Age?",
-        options: ["The rise of writing systems and complex legal codes", "", "A router", "A web server"],
-        correct: "A client",
+        options: ["The rise of writing systems and complex legal codes", "The emergence of democratic systems and universal suffrage", "The development of social hierachies and leadership roles", "the adoption of monotheistic religions and organized priesthoods"],
+        correct:  "The development of social hierachies and leadership roles",
     },
     
 ];
