@@ -7,16 +7,16 @@ body{
     margin-left: 23%;
 }
 #intro{
-    background: white;
-    margin-bottom: 80px;
+    
+    margin-bottom: 200px;
     margin-top: 50px;
     border-radius: 7px;
     height: 360px;
     width: 800px;
     border-style: solid;
+    
 }
 #maze{
-  
     margin-bottom: 80px; 
     background-color: white;
     height: 600px;
@@ -162,9 +162,216 @@ button {
   color: #ffffff;
 }
 
-/* FERES HERE */
+/* FARES HERE */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+} */
+/* body{
+    background: #050e2d;
+}  */
+/*Scroll Bar*/
+/* 
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb
+{
+background: #1aeeef;
+border-radius: 6px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+header.sticky{
+    background: #1b2141;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin: 25px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+color: #fff;
+box-shadow: 0 0 10px #fff;
+}
 
+header .action .searchBx{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+}
+header .action .searchBx i{
+    font-size: 1.4em;
+    margin: 5px;
+    color: #222;
+}
+header .action .searchBx input{
+    outline: none;
+    border: none;
+    font-size: 1em;
+    color: #222;
+} */
 
+/* Home banner */
+
+/* .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .bg {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.banner .bg .content{
+    width: 50%;
+    height: 100%;
+}
+.banner .bg .content h2{
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.banner .bg .content p{
+    font-size: 1em;
+    color: #dbd9d9;
+    letter-spacing: 1px;
+}
+.banner .bg .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+img{
+width: 400px;
+} 
+.banner .bg .content a:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.fares {
+    background-image: url("https://storage.googleapis.com/pai-images/214f9d3822bd4a459a6629fb251c739e.jpeg");
+} */
+
+.banner .bg .content button{
+    background-color: rgba(21, 160, 21, 0.365); 
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 2px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.banner .bg .content button:hover{
+    background: green;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 10px green;
+}
+
+.banner .bg {
+    background: url("https://storage.googleapis.com/pai-images/9e550558afeb40308f942ecf5bf9024c.png");
+}
+.banner .bg .content p{
+    font-size: 1.3em;
+    color: #09f508;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.banner .bg .content h2{
+    font-size: 2em;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.content-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h2{
+    text-transform: uppercase;
+      background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
+     background-size: 50% auto;
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vw;
+    animation: gradientAnim 7.5s ease  alternate infinite;
+  }
+  
+  
+  @keyframes gradientAnim {
+    to {
+      background-position: 100% top;
+    }
+  }
 
 /* IHEB HERE */
 
