@@ -17,6 +17,7 @@ body{
     
 }
 #maze{
+    display: none;
     margin-bottom: 80px; 
     background-color: white;
     height: 600px;
@@ -301,12 +302,12 @@ width: 400px;
     color: #050e2d;
     box-shadow: 0 0 10px #1aeeef;
 }
-.fares {
+.ban{
     background-image: url("https://storage.googleapis.com/pai-images/214f9d3822bd4a459a6629fb251c739e.jpeg");
 } */
 
-.banner .bg .content button{
-    background-color: rgba(21, 160, 21, 0.365); 
+.play{
+  background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
     border: none;
     color: white;
     padding: 20px 35px;
@@ -319,19 +320,19 @@ width: 400px;
     cursor: pointer;
 }
 
-.banner .bg .content button:hover{
+.btn:hover{
     background: green;
     border: none;
     color: #fff;
     box-shadow: 0 0 10px green;
 }
-
-.banner .bg {
-    background: url("https://storage.googleapis.com/pai-images/9e550558afeb40308f942ecf5bf9024c.png");
-}
+/* 
+ .banner .bg {
+    background:url("https://storage.googleapis.com/pai-images/9e550558afeb40308f942ecf5bf9024c.png");
+} */
 .banner .bg .content p{
     font-size: 1.3em;
-    color: #09f508;
+    background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -341,7 +342,7 @@ width: 400px;
     font-style: oblique;
 }
 
-.banner .bg .content h2{
+.banner .bg .content .ahha{
     font-size: 2em;
     color: whitesmoke;
     letter-spacing: 1px;
@@ -355,7 +356,7 @@ width: 400px;
     height: 100vh;
   }
   
-  h2{
+  .ahha{
     text-transform: uppercase;
       background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
      background-size: 50% auto;
